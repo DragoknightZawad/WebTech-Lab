@@ -82,9 +82,14 @@
 		if(!$hasError){
 			$users = simplexml_load_file("data.xml");
 			
-			$user = $users->addChild("user");
+		$user = $users->addChild("user");
 			$user->addChild("username",$uname);
+			$user->addChild("fullname",$fname);
 			$user->addChild("password",$pass);
+			$user->addChild("email",$email);
+			$user->addChild("city",$city);
+			$user->addChild("gender",$gender);
+			$user->addChild("contact",$contact);
 			$user->addChild("type","user");
 			echo "<pre>";
 			print_r($users);

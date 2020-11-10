@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<?php include_once "../php_files/redirect_login.php" ;?>
 
 <html lang="en" dir="ltr">
   <head>

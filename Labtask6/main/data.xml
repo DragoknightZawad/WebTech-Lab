@@ -35,4 +35,14 @@
     <password>123</password>
     <type>user</type>
   </user>
+  <user>
+    <username>fahim3</username>
+    <fullname>fza</fullname>
+    <password>124</password>
+    <email>rajeshzawad@gmail.com</email>
+    <city>Chittagong</city>
+    <gender>Male</gender>
+    <contact>123</contact>
+    <type>user</type>
+  </user>
 </users>
