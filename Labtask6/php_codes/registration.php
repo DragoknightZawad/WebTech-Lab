@@ -7,13 +7,13 @@
 		* Fields are required
 			<form action="" method="post">
 				<table>
-					
 					<tr>
-						<td>Full Name:</td>
-						<td><input type="text" value="<?php echo $fname?>" name="fname"></td>
-						<td><span style="color:red;">*<?php echo $err_fname;?></span>
+						<td>Fname:</td>
+						<td><input type="text" value="<?php echo $uname?>" name="uname"></td>
+						<td><span style="color:red;">*<?php echo $err_uname;?></span>
 						</td>
 					</tr>
+					
 					<tr>
 						<td>Password:</td>
 						<td><input type="password" value="<?php echo $pass?>" name="pass"></td>
